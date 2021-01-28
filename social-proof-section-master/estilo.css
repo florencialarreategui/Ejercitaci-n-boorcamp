@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Spartan
+
+}
+
+section{
+    margin: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+.up-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content:space-between;
+    
+}
+h1{
+    color: #512051;
+}
+.texto{
+    color: #512051;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.caja-recomendaciones{
+    display: flex;
+    flex-direction: row;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    margin:5px ;
+
+}
+
+.card-caja{
+    width: 30%;
+    height: 50%;
+    background-color:#512051;
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 3%;
+    color: white;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+h5{
+    color:palevioletred;
+}
+p{
+    line-height: normal;
+}
+strong{
+    color: white;
+}
+
+.foto{
+    padding-right: 4%;
+}
+img{
+    border-radius: 50px;
+}
